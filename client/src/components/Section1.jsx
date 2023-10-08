@@ -4,11 +4,11 @@ const Section1 = ({ heading, tagline, points, color }) => {
 
   return (
     <div
-      className={`w-[60rem] flex flex-row h-[30rem] ${color} border-2 border-blue-50 rounded-3xl`}
+      className={`w-[60rem] flex flex-row h-[30rem] ${color} border-2 border-teal-50 rounded-3xl`}
     >
       <div className="w-1/2 h-full">
         <div className="div flex flex-row w-[20rem] mt-20 ml-8">
-          <div className="text-blue-500 mr-3">
+          <div className="text-teal-500 mr-3">
             <svg
               viewBox="0 0 32 32"
               fill="none"
@@ -58,7 +58,7 @@ const Section1 = ({ heading, tagline, points, color }) => {
               ></rect>
             </svg>
           </div>
-          <p className="text-xl font-bold text-blue-500">{heading}</p>
+          <p className="text-xl font-bold text-teal-500">{heading}</p>
         </div>
         <div className="ml-8">
           <div className="">
@@ -67,14 +67,14 @@ const Section1 = ({ heading, tagline, points, color }) => {
           {points.map((point) => (
             <div key={point} className="mt-5">
               <div className="flex flex-row">
-                <div className="w-1 h-12 rounded-full bg-blue-600"></div>
+                <div className="w-1 h-12 rounded-full bg-teal-600"></div>
                 <p className="text-xl text-gray-600 ml-4">{point}</p>
               </div>
             </div>
           ))}
         </div>
         <div className="ml-8 mt-20">
-          <button className="w-[8rem] h-[3rem] bg-blue-400 hover:bg-blue-700 hover:text-white border-2 border-blue-50 rounded-full">
+          <button className="w-[8rem] h-[3rem] bg-teal-400 hover:bg-teal-700 hover:text-white border-2 border-teal-50 rounded-full">
             Learn More
           </button>
         </div>

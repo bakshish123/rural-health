@@ -17,31 +17,35 @@ const SkySection = () => {
       <div className="flex flex-row">
         <div className="">
           <h1 className="text-5xl text-gray-700 font-bold ml-28 mt-20">
-            Upgrade to a <br /> better Investing <br /> experience
+            Upgrade to a <br /> better Health <br /> experience
           </h1>
           <p className="text-2xl text-gray-600 ml-28 mt-10">
-            Sign Up and start investing with HDFC SKY on <br /> the Web or your
-            Android and iOS devices.
+            Sign Up and start Using Rural Health Connect on <br /> the Web or
+            your Android and iOS devices.
           </p>
         </div>
         <div className="">
-          <img src='https://assets.aboutamazon.com/dims4/default/0305b38/2147483647/strip/true/crop/1919x1080+1+0/resize/1320x743!/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2F21%2Fd3%2F171c031b4871a367060f2b974a59%2Fhealth-hero-1.jpg' className="mt-24 ml-28 h-[20rem] rounded-3xl shadow-2xl" alt="" />
+          <img
+            src="https://assets.aboutamazon.com/dims4/default/0305b38/2147483647/strip/true/crop/1919x1080+1+0/resize/1320x743!/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2F21%2Fd3%2F171c031b4871a367060f2b974a59%2Fhealth-hero-1.jpg"
+            className="mt-24 ml-28 h-[20rem] rounded-3xl shadow-2xl"
+            alt=""
+          />
         </div>
       </div>
       <div className="">
         <div>
           <p className="text-xl font-light ml-20 mt-10 text-gray-700">
-            HDFC SKY is a financial platform to <br /> help you keep track of
-            all your <br />
-            investments in a single place.
+            Rural Health Connect is a health platform to <br /> help you keep
+            track of all your <br />
+            health issues in a single place.
           </p>
         </div>
         <div className="flex ml-20 mt-10 gap-3">
-          <a  
+          <a
             href="https://www.instagram.com/hdfcsky"
             target="_blank"
             rel="noreferrer"
-            className="hover:border-blue-700 cursor-pointer p-3 rounded-full border-2 border-neutral-black/8 hover:border-primary-hover smooth-transition"
+            className="hover:border-teal-700 cursor-pointer p-3 rounded-full border-2 border-neutral-black/8 hover:border-primary-hover smooth-transition"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -65,11 +69,11 @@ const SkySection = () => {
               </defs>
             </svg>
           </a>
-          <a 
+          <a
             href="https://www.linkedin.com/company/hdfc-sky/"
             target="_blank"
             rel="noreferrer"
-            className="hover:border-blue-700 cursor-pointer p-3 rounded-full border-2 border-neutral-black/8 hover:border-primary-hover smooth-transition"
+            className="hover:border-teal-700 cursor-pointer p-3 rounded-full border-2 border-neutral-black/8 hover:border-primary-hover smooth-transition"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -91,11 +95,11 @@ const SkySection = () => {
               </defs>
             </svg>
           </a>
-          <a 
+          <a
             href="https://twitter.com/hdfcsky"
             target="_blank"
             rel="noreferrer"
-            className="hover:border-blue-700 cursor-pointer p-3 rounded-full border-2 border-neutral-black/8 hover:border-primary-hover smooth-transition"
+            className="hover:border-teal-700 cursor-pointer p-3 rounded-full border-2 border-neutral-black/8 hover:border-primary-hover smooth-transition"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -110,11 +114,11 @@ const SkySection = () => {
               ></path>
             </svg>
           </a>
-          <a 
+          <a
             href="https://www.facebook.com/profile.php?id=100089751670710"
             target="_blank"
             rel="noreferrer"
-            className="hover:border-blue-700 cursor-pointer p-3 rounded-full border-2 border-neutral-black/8 hover:border-primary-hover smooth-transition"
+            className="hover:border-teal-700 cursor-pointer p-3 rounded-full border-2 border-neutral-black/8 hover:border-primary-hover smooth-transition"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
