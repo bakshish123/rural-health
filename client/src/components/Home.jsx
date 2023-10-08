@@ -27,13 +27,13 @@ const Home = () => {
   return (
     <div>
       <Nav />
-      <div style={backgroundImageStyle} className="w-full min-h-screen">
+      <div /*style={backgroundImageStyle}*/className="w-full min-h-screen bg-gradient-to-b from-white via-teal-500 to-white">
         <div className="mt-24 hero flex flex-row">
           <div className="text flex flex-col w-[40rem] mt-7 m-4 ml-16">
             <h1 className="heading text-5xl font-semibold">
               Investing just got an upgrade. Experience Sky.
             </h1>
-            <div className="rounded-xl ml-0 m-10 bg-opacity-0 border-2 border-white">
+            <div className="rounded-xl ml-0 m-10 bg-opacity-50 bg-teal-50 border-2 border-white">
               <div key="1" className="1 p-3 m-3 flex flex-row">
                 <div className="h-6 w-1 bg-purple-600 rounded-2xl m-4"></div>
                 <div>
@@ -52,7 +52,7 @@ const Home = () => {
                   <p>For First Year</p>
                 </div>
               </div>
-              <div key="1" className="1 p-3 m-3 flex flex-row">
+              <div key="3" className="1 p-3 m-3 flex flex-row">
                 <div className="h-6 w-1 bg-purple-600 rounded-2xl m-4"></div>
                 <div>
                   <h6 className="font-semibold text-lg">
@@ -80,7 +80,7 @@ const Home = () => {
                   />
                   <button
                     type="submit"
-                    className="mt-2 mr-2 absolute right-0 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-3xl focus:outline-none focus:shadow-outline"
+                    className="mt-2 mr-2 absolute right-0 bg-teal-500 hover:bg-teal-700 text-white font-bold py-2 px-4 rounded-3xl focus:outline-none focus:shadow-outline"
                   >
                     Submit
                   </button>

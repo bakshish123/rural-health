@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../assets/footer-clouds.webp";
+import img from "../assets/footer-clouds.jpg";
 import img2 from "../assets/footer-mockup.webp";
 
 const SkySection = () => {
@@ -25,7 +25,7 @@ const SkySection = () => {
           </p>
         </div>
         <div className="">
-          <img src={img2} className="mt-18 ml-16 h-[70vh]" alt="" />
+          <img src='https://assets.aboutamazon.com/dims4/default/0305b38/2147483647/strip/true/crop/1919x1080+1+0/resize/1320x743!/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2F21%2Fd3%2F171c031b4871a367060f2b974a59%2Fhealth-hero-1.jpg' className="mt-24 ml-28 h-[20rem] rounded-3xl shadow-2xl" alt="" />
         </div>
       </div>
       <div className="">
