@@ -27,7 +27,7 @@ const AuthForm = ({ type }) => {
                 <Form label="Enter Your Password" htmlFor="password" />
                 <button
                   type="submit"
-                  className="hover:border-blue-300 w-[15rem] hover:bg-blue-700 h-[3rem] bg-blue-500 ml-[2rem] mt-[2rem] rounded-lg text-white font-sans"
+                  className="hover:border-teal-300 w-[15rem] hover:bg-teal-700 h-[3rem] bg-teal-500 ml-[2rem] mt-[2rem] rounded-lg text-white font-sans"
                 >
                   Proceed
                 </button>
@@ -35,7 +35,7 @@ const AuthForm = ({ type }) => {
                   <Link to="/signup">
                     <button
                       type="submit"
-                      className="border-[1px] border-solid hover:bg-blue-50 border-blue-500 w-[15rem] h-[3rem] bg-white ml-[2rem] mt-[2rem] hover:transition-shadow rounded-lg text-blue-500 font-bold font-sans"
+                      className="border-[1px] border-solid hover:bg-teal-50 border-teal-500 w-[15rem] h-[3rem] bg-white ml-[2rem] mt-[2rem] hover:transition-shadow rounded-lg text-teal-500 font-bold font-sans"
                     >
                       Sign Up
                     </button>
@@ -43,7 +43,7 @@ const AuthForm = ({ type }) => {
                 ) : null}
               </div>
             </div>
-            <div className="flex justify-center items-center w-[30%] h-[100%] rounded-sm  border-blue-50 bg-gradient-to-b from-blue-50 to-white">
+            <div className="flex justify-center items-center w-[30%] h-[100%] rounded-sm  border-teal-50 bg-gradient-to-b from-teal-50 to-white">
               <div className="flex justify-center items-center">
                 <h1 className="text-4xl font-bold">GOAT</h1>
               </div>

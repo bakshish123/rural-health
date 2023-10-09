@@ -11,7 +11,7 @@ const Footer = () => {
             href="#"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-blue-500"
+            className="hover:text-teal-500"
           >
             <FaFacebook size={24} />
           </a>
@@ -19,7 +19,7 @@ const Footer = () => {
             href="#"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-blue-400"
+            className="hover:text-teal-400"
           >
             <FaTwitter size={24} />
           </a>
@@ -27,7 +27,7 @@ const Footer = () => {
             href="#"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-blue-700"
+            className="hover:text-teal-700"
           >
             <FaLinkedin size={24} />
           </a>

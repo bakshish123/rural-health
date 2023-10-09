@@ -11,7 +11,7 @@ const Card = ({ heading, tagline, link }) => {
         <Link to='/support'>
           <button >
             <span>
-              <p className="ml-5 mt-3 text-2xl text-blue-600 hover:text-blue-700">{link}</p>
+              <p className="ml-5 mt-3 text-2xl text-teal-600 hover:text-teal-700">{link}</p>
             </span>
           </button>
         </Link>

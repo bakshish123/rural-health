@@ -9,7 +9,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-gradient-to-r from-blue-800 via-blue-700 to-gray-800 py-4">
+    <header className="bg-gradient-to-r from-teal-800 via-teal-700 to-gray-800 py-4">
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-white text-3xl font-bold pl-4">
           <Link to="/">Rural Health</Link>

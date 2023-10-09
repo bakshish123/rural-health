@@ -12,7 +12,7 @@ const Invest = () => {
         "3500+ listed companies and 100+ ETFs",
         "Trade in future, options, currencies & commodities",
       ],
-      color: "bg-gradient-to-r from-white to-blue-50",
+      color: "bg-gradient-to-r from-white to-teal-50",
     },
     {
       heading: "Mutual Funds",
@@ -53,7 +53,7 @@ const Invest = () => {
 
   return (
     <div className="h-full w-screen bg-gray-100">
-      <div className="border-2 border-blue-50 shadow-sm rounded-md">
+      <div className="border-2 border-teal-50 shadow-sm rounded-md">
         <Nav active="invest" />
       </div>
       <div className="mt-10">
