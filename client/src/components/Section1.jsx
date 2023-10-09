@@ -73,7 +73,7 @@ const Section1 = ({ heading, tagline, points, color }) => {
             </div>
           ))}
         </div>
-        <div className="ml-8 mt-20">
+        <div className="ml-8 mt-10">
           <button className="w-[8rem] h-[3rem] bg-teal-400 hover:bg-teal-700 hover:text-white border-2 border-teal-50 rounded-full">
             Learn More
           </button>

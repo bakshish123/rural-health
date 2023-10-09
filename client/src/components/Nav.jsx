@@ -51,14 +51,14 @@ const Nav = ({ active }) => {
         </div>
         <div className="hidden lg:flex items-center gap-60">
           <nav className="flex space-x-10 items-center">
-            <Link to="/invest">
-              <span className="cursor-pointer hover:text-teal-700 font-medium text-14 md:text-16 lg:text-20 smooth-transition text-neutral-black/60">
-                Invest
-              </span>
-            </Link>
             <Link to="/pricing">
               <span className="cursor-pointer hover:text-teal-700 font-medium text-14 md:text-16 lg:text-20 smooth-transition text-neutral-black/60">
                 Pricing
+              </span>
+            </Link>
+            <Link to="/bookAppointment">
+              <span className="cursor-pointer hover:text-teal-700 font-medium text-14 md:text-16 lg:text-20 smooth-transition text-neutral-black/60">
+                Book Appointment
               </span>
             </Link>
             <Link to="/learn">
@@ -66,11 +66,11 @@ const Nav = ({ active }) => {
                 Learn
               </span>
             </Link>
-            <Link to="/blogs">
+            {/* <Link to="/blogs">
               <span className="cursor-pointer hover:text-teal-700 font-medium text-14 md:text-16 lg:text-20 smooth-transition text-neutral-black/60">
                 Blogs
               </span>
-            </Link>
+            </Link> */}
             <Link to="/support">
               <span className="cursor-pointer hover:text-teal-700 font-medium text-14 md:text-16 lg:text-20 smooth-transition text-neutral-black/60">
                 Support
