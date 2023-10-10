@@ -8,6 +8,7 @@ import img from "../assets/login.svg";
 const AuthForm = ({ type }) => {
   const navigate = useNavigate();
 
+  
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   console.log(email, password);
