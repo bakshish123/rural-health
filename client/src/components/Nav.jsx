@@ -14,10 +14,11 @@ const Nav = ({ active }) => {
           style={{ backgroundColor: "rgba(255, 255, 255, 0)" }} // Adjust the alpha value (0.7) for transparency
           >
             <img
+            
               src={headerLogo} // Use the src attribute to specify the image source
               alt="Header Logo" // Provide an alt attribute for accessibility
-              style={{ backgroundColor: "rgba(255, 255, 255, 0.5)" }} // Adjust the alpha value (0.7) for transparency
-              className="rounded-full h-8 md:h-9 lg:h-[6rem] w-[6rem] cursor-pointer"
+              style={{ backgroundColor: "rgba(255, 255, 255, 0.0)" }} // Adjust the alpha value (0.7) for transparency
+              className="h-8 md:h-9 lg:h-[6rem] w-[6rem] cursor-pointer"
             />
           </Link>
         </div>
