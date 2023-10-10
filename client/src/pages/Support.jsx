@@ -6,6 +6,7 @@ const Support = () => {
   return (
     <div>
       <Nav />
+      
       <SkySection />
     </div>
   );
