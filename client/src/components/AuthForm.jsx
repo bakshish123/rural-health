@@ -1,40 +1,23 @@
 import React, { useState } from "react";
 import axios from "axios";
 import Form from "./Form";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, Navigate, useNavigate } from "react-router-dom";
 import logo from "../assets/logo.png";
 import img from "../assets/login.svg";
 
 const AuthForm = ({ type }) => {
   const navigate = useNavigate();
 
-  const [formData, setFormData] = useState({
-    email: "",
-    password: "",
-  });
-
-  const handleInputChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({
-      ...formData,
-      [name]: value,
-    });
-  };
-
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  console.log(email, password);
   const handleSubmit = async (e) => {
     e.preventDefault();
-
+    console.log({ email, password });
     try {
-      // Adjust the API endpoint as needed
-      const response = await axios.post("/signup", formData);
-
-      console.log("User registered:", response.data);
-
-      // Redirect to a success page or update the UI as needed
-      navigate("/"); // Use navigate instead of Navigate
+      await axios.post("/signup",  email, password);
     } catch (error) {
       console.error("Registration failed:", error);
-      // Handle registration failure, display an error message, etc.
     }
   };
 
@@ -58,33 +41,18 @@ const AuthForm = ({ type }) => {
                 {type}
               </span>
               <div className="form">
-                <Form label="Enter Email ID/Mobile No." htmlFor="email">
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    value={formData.email}
-                    onChange={handleInputChange}
-                    required
-                  />
-                </Form>
-                <Form label="Enter Your Password" htmlFor="password">
-                  <input
-                    type="password"
-                    id="password"
-                    name="password"
-                    value={formData.password}
-                    onChange={handleInputChange}
-                    required
-                  />
-                </Form>
-                <button
-                  type="submit"
-                  onClick={handleSubmit}
-                  className="hover:border-teal-300 w-[15rem] hover:bg-teal-700 h-[3rem] bg-teal-500 ml-[2rem] mt-[2rem] rounded-lg text-white font-sans"
+                <Form
+                  action="POST"
+                  label="Enter Email ID/Mobile No."
+                  htmlFor="email"
                 >
-                  Proceed
-                </button>
+                </Form>
+                <Form
+                  action="POST"
+                  label="Enter Your Password"
+                  htmlFor="password"
+                >
+                </Form>
                 {type === "login" ? (
                   <Link to="/signup">
                     <button
