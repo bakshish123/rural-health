@@ -10,7 +10,7 @@ const Card = ({description, imageUrl,link,id }) => {
 
       </div>
       <div className="">
-        <Link to='/payment'>
+        <Link to={`${id}`}>
           <button >
             <span>
               <p className="ml-5  mt-4 text-2xl text-teal-600 hover:text-teal-700">{link}</p>

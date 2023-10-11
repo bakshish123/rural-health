@@ -3,7 +3,7 @@ import img from "../assets/login.svg";
 import Form from "./Form";
 import { Link } from "react-router-dom";
 
-const AuthForm2 = ({ type ,price}) => {
+const AuthForm2 = ({ type , price}) => {
   const backgroundImageStyle = {
     backgroundImage: `url(${img})`,
     backgroundSize: "cover",
