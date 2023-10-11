@@ -61,9 +61,9 @@ const Nav = ({ active }) => {
                 Book Appointment
               </span>
             </Link>
-            <Link to="/learn">
+            <Link to="/finddocs">
               <span className="cursor-pointer hover:text-teal-700 font-medium text-14 md:text-16 lg:text-20 smooth-transition text-neutral-black/60">
-                Learn
+                Find Doctors
               </span>
             </Link>
             {/* <Link to="/blogs">

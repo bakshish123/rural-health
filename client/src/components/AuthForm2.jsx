@@ -2,8 +2,13 @@ import React from "react";
 import img from "../assets/login.svg";
 import Form from "./Form";
 import { Link } from "react-router-dom";
+<<<<<<< HEAD
 
 const AuthForm2 = ({ type , price}) => {
+=======
+import logo from "../assets/logo.png";
+const AuthForm2 = ({ type ,price}) => {
+>>>>>>> 4569f38cfd0d0caf69c68163946d1f359240fe7e
   const backgroundImageStyle = {
     backgroundImage: `url(${img})`,
     backgroundSize: "cover",
@@ -60,7 +65,7 @@ const AuthForm2 = ({ type , price}) => {
             </div>
             <div className="flex justify-center items-center w-[30%] h-[100%] rounded-sm  border-teal-50 bg-gradient-to-b from-teal-50 to-white">
               <div className="flex justify-center items-center">
-                <h1 className="text-4xl font-bold">GOAT</h1>
+                <img src={logo} alt="" />
               </div>
             </div>
           </div>
